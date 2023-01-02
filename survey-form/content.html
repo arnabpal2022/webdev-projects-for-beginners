@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <title> Survey on Student's Information</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+
+    <body>
+       <header>
+        <div class="heading">
+            <h1> Fill up all the necessary details</h1>
+        </div>
+       </header>
+
+       <form>
+        <div class="form-control">
+            <fieldset class="basic-info" id="basic-info">
+                <label for="name">Name :</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name here"><br>
+
+                <label for="fname">Father's name :</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Your Father's Name here"><br>
+
+                <label for="institute"> Name of Your School/College/University :</label><br>
+                <input type="text" id="institute" name="institute" placeholder=" Your Institution Name here"><br>
+
+                <label for="gender"> Gender :</label>
+                <input type="radio" id="gender" name="gender"> Male 
+                <input type="radio" id="gender" name="gender"> Female 
+            </fieldset>
+        </div>
+        <div class="control2"></div>
+            <fieldset class="edu-info">
+                
+                <label for="course"> Your Ongoing Course :</label>
+                <select id="course" name="course">
+                    <option> - Select From the List</option>
+                    <option value="c1">B.Tech</option>
+                    <option value="c2">BBA</option>
+                    <option value="c3">B.Sc</option>
+                    <option value="c4">B.Pharma</option>
+                </select><br>
+
+                <div class = "paddings">
+                            
+                    <label for> Languages and Skills Known :</label><br>
+                    <input type="checkbox"><label class="gap"> C </label><br>
+                    <input type="checkbox"><label class="gap"> C++ </label><br>
+                    <input type="checkbox"><label class="gap"> Java </label><br>
+                    <input type="checkbox"><label class="gap"> Python </label><br>
+                    <input type="checkbox"><label class="gap"> HTML </label><br>
+                    <input type="checkbox"><label class="gap"> CSS </label><br>
+                    <input type="checkbox"><label class="gap"> JavaScript </label><br>
+                    <input type="checkbox"><label class="gap"> TypeScript </label><br>
+                </div>
+            </fieldset>
+
+        </div>
+
+        <div class="comment">
+            <label for="message"> Your Suggestions and Comments :</label><br>
+            <textarea name="message" rows="2" cols="95%" placeholder="Tell us how we can improve...."></textarea>
+        </div>
+        </form>
+
+        <footer>
+            <div class="divider"></div>
+            <div class = "copyright">
+                <p> This Project is copyrighted by ©Arnab Pal™ 2022</p>
+            </div>
+        </footer>
+    </body>
+</html>

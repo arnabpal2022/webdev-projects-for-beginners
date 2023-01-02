@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(243, 242, 198);
+   
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Calibri';
+    background-color: lightgoldenrodyellow;
+    box-shadow: inset 0 0 0 1px #53a7ea;
+    
+    color : rgb(38, 166, 70);
+    box-sizing: border-box;
+    width: 700px;
+    
+    
+}
+
+.basic-info, .edu-info{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-width: 5px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    color:gray;
+    text-align: center;
+    
+}
+
+.divider {
+    border-top: 5px solid #888989;
+    margin: 2px 0;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+input[type="text"]{
+    width : 675px;
+}
+
+.heading:hover
+{
+        box-shadow: inset 0 0 0 5px #53a7ea;
+        background-color: rgb(252, 252, 233);
+}
+
+

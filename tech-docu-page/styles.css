@@ -1,0 +1,73 @@
+body {
+    
+    min-width: 290px;
+    color: #ffffff;
+    background-color: #000c48;
+    font-family: 'Fauna One';
+    line-height: 1.5;
+  }
+header{
+    font-family: "Cinzel";
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    margin-top: 20px;;
+}
+
+h2{
+    font-family: "Cinzel";
+}
+
+#sidebar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #000c48;
+  }
+
+#sidebar ul {
+    height: 100%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-right: 5px solid #b3c0ff;
+}
+
+  #sidebar li {
+    color: #c5eeff;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+  
+#sidebar a {
+    display: block;
+    padding: 10px 30px;
+    color: #b3c0ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sidebar{
+    width:200px;
+    border-left: 5px solid black;
+    
+}
+
+#main-doc {
+    background-color: #0474e54b;
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+
+.article{
+    border:#4d4e53;
+    box-shadow: inset;
+}

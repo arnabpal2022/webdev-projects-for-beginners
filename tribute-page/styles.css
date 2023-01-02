@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color:white;
+}
+.title{
+    text-align: center;
+    font-family: "Libre Baskerville"
+}
+.image{
+    text-align: center;
+}
+img{
+    max-width: 80%;
+}
+#writtenpart{
+    font-family: Merriweather;
+}
+
+.italic {
+    font-style :italic;
+    
+}
+.tributepart{
+    font-family: "Libre Baskerville";
+    text-align: center;
+    font-size: large;
+}
+#lorem{
+    font-family:"Open Sans"; 
+    text-align:justify;
+    font-size:small;
+}
+.copyright{
+    color :gray;
+    font-family: Calibri;
+    text-align:end;
+    margin-top: 10px;
+}
+.divider{
+    max-width: 100%;
+    height : 5px;
+    background-color : gold;
+}
