@@ -5,3 +5,4 @@ Projects Available Here :
   - A Simple Survey Form
   - A Tribute Page to Steve Jobs
   - A Sample Layout of Technical Documentation Page
+  - A Parallax Website
