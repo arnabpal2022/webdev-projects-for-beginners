@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content=
+		    "width=device-width, initial-scale=1.0">
+        <title>
+           Survey Form on Students' Details and Their Future Plans
+        </title>
+
+        <style>
+            body {
+                text-align: left;
+                
+                background-color : rgb(219, 223, 162);
+
+            }
+
+            h1{
+                text-align: center;
+                font-family: 'Calibri';
+                margin: 0 auto;
+                margin-top: 50px;
+                padding: 30px 20px;
+			    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+            }
+
+            form {
+                font-family: 'Cambria';
+                font-size: large;
+                background-color: #fff;
+			    max-width: 700px;
+			    margin: 50px auto;
+			    padding: 30px 20px;
+			    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            }
+
+            
+
+            .form-control input[type="text"],
+            select {
+                border: 1px solid #777;
+                border-radius: 2px;
+                font-family: 'Cambria';
+                font-size :medium;
+                padding: 10px;
+                display: block;
+                width: 95%;
+                
+            } 
+            
+            .paddings{
+                padding : 2px;
+            }
+
+            .form-control input[type="checkbox"]{
+                transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+            
+            .
+            
+            
+            
+        </style>
+
+        <body>
+            
+            <h1 style = "background-color:rgb(17, 213, 252) ; max-width: 1000px;">Fill up all the necessary details</h1>
+            <form>
+                <div class = "form-control">
+                    <fieldset style = "border-radius: 10px;">
+                    <legend>Personal Details</legend>
+                    <label for="name">Name :</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your Name here"><br>
+
+                    <label for="fname">Father's name :</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Your Father's Name here"><br>
+
+                    <label for="institute"> Name of Your School/College/University :</label><br>
+                    <input type="text" id="institute" name="institute" placeholder=" Your Institution Name here"><br>
+
+                    <label for="Course"> Your Ongoing Course :</label><br>
+                    <select id="course" name="course">
+                        <option> - Select From the List</option>
+                        <option value="c1">B.Tech</option>
+                        <option value="c2">BBA</option>
+                        <option value="c3">B.Sc</option>
+                        <option value="c4">B.Pharma</option>
+                    </select><br>
+                    
+                    <label for="date"> Date of Birth :</label>
+                    <input type="date" id="birthday" name="birthday"><br>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset style = "border-radius: 10px;">
+                        <legend> Survey Details </legend>
+                        <div class = "paddings">
+                            
+                            <label> Languages and Skills Known :</label><br><br>
+                            <input type="checkbox"><label style = "margin-left: 5px;"> C </label><br>
+                            <input type="checkbox"><label style = "margin-left: 5px;"> C++ </label><br>
+                            <input type="checkbox"><label style = "margin-left: 5px;"> Java </label><br>
+                            <input type="checkbox"><label style = "margin-left: 5px;"> Python </label><br>
+                            <input type="checkbox"><label style = "margin-left: 5px;"> HTML </label><br>
+                            <input type="checkbox"><label style = "margin-left: 5px;"> CSS </label><br>
+                            <input type="checkbox"><label style = "margin-left: 5px;"> JavaScript </label><br>
+                            <input type="checkbox"><label style = "margin-left: 5px;"> TypeScript </label><br>
+                        </div>
+                        <br>
+
+                        <label> Your Suggestions and Comments :</label><br><br>
+                        <textarea name="message" rows="10" cols="85%" placeholder="Tell us how we can improve...." style="display:block;"></textarea>
+                            
+                        
+                    </fieldset>
+                    <br>
+                    <br>
+
+                    <input type="button" onclick="alert('Your Response has been Recorded.')" value="Submit" style="padding:10px; text-align: center; width: 100%; font-size: larger; font-weight: bold; background-color: cornflowerblue;">
+
+
+                </div> 
+            </form>
+        </body>
+    </head>
+</html>
